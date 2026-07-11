@@ -1,0 +1,9 @@
+paso de la solucion
+
+Primero leí los tres datos que pide el ejercicio: un número entero, un número decimal y un texto. 
+Después guardé los valores que ya trae el programa (4, 4.0 y "HackerRank").
+
+Luego sume el numero entero que ingrese con el 4 y mostre el resultado. Después hice lo mismo con el número decimal, sumándolo con 4.0.
+
+Al final uní el texto "HackerRank " con el texto que ingresé y lo imprimí. De esta forma el programa muestra primero la suma de los enteros,
+luego la suma de los decimales y por último las dos cadenas de texto juntas, que es exactamente lo que pide el ejercicio.
