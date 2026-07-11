@@ -1,0 +1,20 @@
+Paso a paso de la solución
+
+1. Primero utilicé `input()` para leer la línea de texto que HackerRank envía como entrada y la guardé en una variable llamada `mensaje`.
+
+2. Después imprimí el texto **"Hello, World."** usando la función `print()`, ya que es un requisito del ejercicio.
+
+3. Finalmente, imprimí la variable `mensaje` para mostrar el mismo texto que se había recibido como entrada.
+
+Código utilizado:
+
+python
+mensaje = input()
+
+print("Hello, World.")
+print(mensaje)
+```
+
+Resultado:
+El programa primero muestra **
+Hello, World.** y luego imprime el mensaje que recibió como entrada, cumpliendo con lo solicitado por el ejercicio.
