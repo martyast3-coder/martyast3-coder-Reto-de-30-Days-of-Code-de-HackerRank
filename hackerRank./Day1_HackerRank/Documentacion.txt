@@ -1,0 +1,58 @@
+Objetivo
+El propósito de este ejercicio es practicar el uso de los tipos de datos básicos en Python (int,float y str) la lectura de datos mediante input() y el uso del operador + para realizar sumas y concatenar cadenas de texto.
+Desarrollo
+
+El ejercicio proporciona tres variables inicializadas:
+
+i = 4` (entero)
+d = 4.0` (decimal)
+s = "HackerRank "` (cadena de texto)
+
+Estas variables no deben modificarse. En su lugar, se crean tres nuevas variables para almacenar los datos ingresados por el usuario.
+
+1. Declaración de variables
+
+Se declaran tres variables auxiliares:
+
+i2: almacena un número entero.
+d2: almacena un número decimal.
+s2: almacena una cadena de texto.
+
+2. Lectura de datos
+
+Se utilizan las funciones input(), int() y float() para leer la información ingresada por el usuario.
+
+int(input()) convierte la entrada en un entero.
+float(input()) convierte la entrada en un número decimal.
+input() almacena el texto tal como fue escrito.
+
+3. Operaciones realizadas
+
+Una vez obtenidos los datos, se realizan tres operaciones:
+
+Se suma el entero inicial (i) con el entero ingresado (i2).
+Se suma el decimal inicial (d) con el decimal ingresado (d2).
+Se concatena la cadena inicial (s) con la cadena ingresada (s2).
+
+4. Salida
+
+Finalmente, se imprimen los resultados en el siguiente orden:
+
+1. Resultado de la suma de enteros.
+2. Resultado de la suma de decimales.
+3. Resultado de la concatenación de las cadenas.
+
+Algoritmo
+
+1. Inicializar las variables i, d y s.
+2. Declarar las variables i2, d2 y s2.
+3. Leer un entero.
+4. Leer un número decimal.
+5. Leer una cadena de texto.
+6. Sumar los enteros e imprimir el resultado.
+7. Sumar los decimales e imprimir el resultado.
+8. Concatenar las cadenas e imprimir el resultado.
+
+Conclusión
+
+Este ejercicio permitió reforzar el manejo de los tipos de datos básicos en Python, la captura de información desde el teclado y el uso del operador `+` para realizar tanto operaciones aritméticas como concatenación de cadenas. Además, se comprendió la importancia de conservar las variables iniciales y utilizar variables adicionales para almacenar los datos ingresados por el usuario, tal como lo solicita el enunciado del ejercicio.
