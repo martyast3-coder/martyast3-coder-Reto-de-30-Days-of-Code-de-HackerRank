@@ -1,0 +1,96 @@
+# Documentación - Clase vs Instancia (Person)
+
+## Nombre
+[Tu nombre aquí]
+
+## Objetivo del ejercicio
+En este ejercicio aprendí la diferencia entre una clase y una instancia en 
+programación orientada a objetos. Para esto, implementé una clase llamada 
+`Person` que representa a una persona con una edad, y que puede simular 
+el paso del tiempo y clasificar a la persona según su edad.
+
+## Descripción del problema
+Debía crear una clase `Person` con:
+- Una variable de instancia `age` (edad).
+- Un constructor que reciba la edad inicial y valide que no sea negativa.
+- Un método `yearPasses()` que aumente la edad en 1 (simulando que pasa un año).
+- Un método `amIOld()` que imprima un mensaje según el rango de edad.
+
+## Lógica implementada
+
+### 1. Constructor `__init__`
+Recibe `initialAge` como parámetro. Si el valor es negativo, no es una edad 
+válida, así que imprimo un mensaje de aviso y dejo la edad en 0. Si es un 
+valor válido (mayor o igual a 0), simplemente lo asigno a la variable de 
+instancia `self.age`.
+
+### 2. Método `amIOld()`
+Comparo la edad actual (`self.age`) contra dos umbrales:
+- Si es menor a 13 años → la persona es joven.
+- Si está entre 13 y 17 años → la persona es adolescente.
+- Si es 18 o más → la persona es adulta/mayor.
+
+### 3. Método `yearPasses()`
+Simplemente incremento `self.age` en 1 cada vez que se llama, simulando 
+que transcurre un año.
+
+## Código final
+
+\```python
+class Person:
+    def __init__(self, initialAge):
+        # Verifica que la edad no sea negativa
+        if initialAge < 0:
+            print("Age is not valid, setting age to 0.")
+            self.age = 0
+        else:
+            self.age = initialAge
+
+    def amIOld(self):
+        # Imprime el mensaje correspondiente según la edad
+        if self.age < 13:
+            print("You are young.")
+        elif self.age < 18:
+            print("You are a teenager.")
+        else:
+            print("You are old.")
+
+    def yearPasses(self):
+        # Incrementa la edad en 1
+        self.age += 1
+
+age = int(input("Digite la edad: "))
+p = Person(age)
+p.amIOld()
+for j in range(0, 3):
+    p.yearPasses()
+p.amIOld()
+print("")
+\```
+
+## Flujo del programa
+1. Pido al usuario que digite su edad.
+2. Creo una instancia de `Person` con esa edad (validando que no sea negativa).
+3. Muestro el estado inicial de la persona con `amIOld()`.
+4. Simulo el paso de 3 años llamando `yearPasses()` tres veces.
+5. Vuelvo a mostrar el estado de la persona después de esos 3 años.
+
+## Ejemplo de ejecución
+
+**Entrada:** `10`
+
+**Salida:**
+\```
+You are young.
+You are a teenager.
+
+\```
+
+**Explicación:** Como la edad inicial es 10, la persona es joven. Después 
+de que pasan 3 años, la edad es 13, así que ahora es adolescente.
+
+## Conclusión
+Con este ejercicio entendí que la **clase** (`Person`) es como un molde o 
+plantilla que define qué atributos y comportamientos tendrá cualquier 
+persona, mientras que la **instancia** (`p`) es un objeto específico creado 
+a partir de esa clase, con sus propios valores (en este caso, su propia edad).

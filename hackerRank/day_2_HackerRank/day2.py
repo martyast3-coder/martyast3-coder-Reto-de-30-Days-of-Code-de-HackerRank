@@ -16,22 +16,26 @@ import sys
 #
 
 def solve(meal_cost, tip_percent, tax_percent):
-    # Calculate tip and tax amounts
+
+    # Calcular la propina
     tip = meal_cost * (tip_percent / 100)
+
+    # Calcular el impuesto
     tax = meal_cost * (tax_percent / 100)
+
+    # Calcular el costo total
+    total_cost = meal_cost + tip + tax
+
     
-    # Calculate total and round to the nearest integer
-    total_cost = round(meal_cost + tip + tax)
-    
-    # Print the final result
-    print(total_cost)
+    print(round(total_cost))
+
+
 
 if __name__ == '__main__':
-    meal_cost = float(input().strip())
+    meal_cost = float(input("digite el monto broto").strip("decimal"))
 
-    tip_percent = int(input().strip())
+    tip_percent = int(input("digite el porcentaje de propina").strip("entero"))
 
-    tax_percent = int(input().strip())
+    tax_percent = int(input("digite el monto de impuesto").strip("entero"))
 
-    solve(meal_cost, tip_percent, tax_percent)
-
+    solve(meal_cost, tip_percent, tax_percent) 
