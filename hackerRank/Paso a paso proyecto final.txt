@@ -71,7 +71,3 @@ El funcionamiento del programa puede resumirse en los siguientes pasos:
 8. Se concatenan las cadenas de texto.
 9. Se muestran todos los resultados obtenidos.
 10. El programa finaliza mostrando un mensaje de despedida.
-
-## Conclusión
-
-Con este reto se reforzaron los conocimientos sobre los tipos de datos básicos en Python, el uso de variables, la captura de datos mediante la función `input()`, las operaciones aritméticas con números enteros y decimales, y la concatenación de cadenas de texto. Además, se comprendió la importancia de convertir correctamente los datos ingresados por el usuario para poder realizar operaciones sin errores.
