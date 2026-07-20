@@ -1,0 +1,77 @@
+Reto #1 – Tipos de Datos (Day 1)
+
+## Introducción
+
+Para desarrollar este reto se utilizó el lenguaje de programación **Python**. El objetivo principal fue practicar el manejo de los tipos de datos básicos (entero, decimal y cadena de texto), así como la entrada de datos por teclado, la suma de valores y la concatenación de textos.
+
+## Paso 1. Declaración de las variables iniciales
+
+El programa inicia con tres variables proporcionadas por HackerRank:
+
+* **i = 4:** almacena un número entero.
+* **d = 4.0:** almacena un número decimal.
+* **s = "HackerRank ":** almacena una cadena de texto.
+
+Estas variables serán utilizadas posteriormente para realizar las operaciones solicitadas en el reto.
+
+## Paso 2. Declaración de nuevas variables
+
+Se declararon tres variables adicionales para guardar la información ingresada por el usuario:
+
+* **entero:** almacena un número entero.
+* **decimal:** almacena un número decimal.
+* **cadena_texto:** almacena una cadena de caracteres.
+
+Inicialmente estas variables se asignaron con valores por defecto para indicar su tipo de dato.
+
+## Paso 3. Entrada de datos
+
+El programa solicita al usuario ingresar la información necesaria mediante la función `input()`.
+
+Primero se pide un número entero, luego un número decimal y finalmente un texto. Los datos numéricos son convertidos utilizando las funciones `int()` y `float()` para poder realizar operaciones matemáticas.
+
+## Paso 4. Suma de los números enteros
+
+Una vez capturado el número entero ingresado por el usuario, el programa lo suma con el valor inicial de la variable **i**, que es igual a **4**.
+
+El resultado obtenido se muestra en pantalla para que el usuario pueda verificar la operación.
+
+## Paso 5. Suma de los números decimales
+
+Posteriormente se realiza la suma entre el número decimal ingresado por el usuario y el valor inicial de la variable **d**, que es igual a **4.0**.
+
+El resultado de esta operación también es mostrado en pantalla.
+
+## Paso 6. Concatenación de cadenas
+
+Después de realizar las operaciones matemáticas, el programa une la cadena de texto **"HackerRank "** con el texto escrito por el usuario.
+
+Esta operación recibe el nombre de **concatenación**, ya que consiste en unir dos cadenas de caracteres para formar un solo texto.
+
+## Paso 7. Presentación de resultados
+
+Finalmente, el programa muestra en pantalla:
+
+* El resultado de la suma de los números enteros.
+* El resultado de la suma de los números decimales.
+* El texto concatenado.
+* Un mensaje de despedida indicando que el programa ha finalizado correctamente.
+
+## Funcionamiento del programa
+
+El funcionamiento del programa puede resumirse en los siguientes pasos:
+
+1. Se inicializan las variables proporcionadas por HackerRank.
+2. Se crean las variables que almacenarán la información del usuario.
+3. Se solicita un número entero.
+4. Se solicita un número decimal.
+5. Se solicita un texto.
+6. Se realiza la suma de los números enteros.
+7. Se realiza la suma de los números decimales.
+8. Se concatenan las cadenas de texto.
+9. Se muestran todos los resultados obtenidos.
+10. El programa finaliza mostrando un mensaje de despedida.
+
+## Conclusión
+
+Con este reto se reforzaron los conocimientos sobre los tipos de datos básicos en Python, el uso de variables, la captura de datos mediante la función `input()`, las operaciones aritméticas con números enteros y decimales, y la concatenación de cadenas de texto. Además, se comprendió la importancia de convertir correctamente los datos ingresados por el usuario para poder realizar operaciones sin errores.
